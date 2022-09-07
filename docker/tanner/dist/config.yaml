@@ -80,7 +80,7 @@ HPFEEDS:
 
 LOCALLOG: 
   enabled: True
-  PATH: /tmp/tanner/tanner_report.json
+  PATH: /opt/tanner/tanner_report.json
 
 CLEANLOG: 
   enabled: False
