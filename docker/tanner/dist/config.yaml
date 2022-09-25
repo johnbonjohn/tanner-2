@@ -39,7 +39,7 @@ EMULATOR_ENABLED:
   rfi: True
   lfi: False
   xss: True
-  cmd_exec: False
+  cmd_exec: True 
   php_code_injection: True
   php_object_injection: True
   crlf: True
@@ -83,10 +83,11 @@ LOCALLOG:
   PATH: /tmp/tanner/tanner_report.json
 
 CLEANLOG: 
-  enabled: False
+  enabled: True 
+  PATH: /opt/tanner/tanner_report.json
 
 REMOTE_DOCKERFILE: 
   GITHUB: "https://raw.githubusercontent.com/mushorg/tanner/master/docker/tanner/template_injection/Dockerfile"
 
 SESSIONS: 
-  delete_timeout: 300
+  delete_timeout: 1000
