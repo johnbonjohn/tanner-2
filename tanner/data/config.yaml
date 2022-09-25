@@ -83,8 +83,7 @@ LOCALLOG:
   PATH: /tmp/tanner_report.json
 
 CLEANLOG: 
-  enabled: True
-  PATH: /opt/tanner_report.json
+  enabled: False
 
 REMOTE_DOCKERFILE: 
   GITHUB: "https://raw.githubusercontent.com/mushorg/tanner/master/docker/tanner/template_injection/Dockerfile"
