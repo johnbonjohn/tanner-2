@@ -79,14 +79,15 @@ HPFEEDS:
   CHANNEL: tanner.events
 
 LOCALLOG: 
-  enabled: False
+  enabled: True
   PATH: /tmp/tanner_report.json
 
 CLEANLOG: 
-  enabled: False
+  enabled: True
+  PATH: /opt/tanner_report.json
 
 REMOTE_DOCKERFILE: 
   GITHUB: "https://raw.githubusercontent.com/mushorg/tanner/master/docker/tanner/template_injection/Dockerfile"
 
 SESSIONS: 
-  delete_timeout: 300
+  delete_timeout: 1000
