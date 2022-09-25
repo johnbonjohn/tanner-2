@@ -83,11 +83,10 @@ LOCALLOG:
   PATH: /tmp/tanner/tanner_report.json
 
 CLEANLOG: 
-  enabled: True 
-  PATH: /opt/tanner/tanner_report.json
+  enabled: False 
 
 REMOTE_DOCKERFILE: 
   GITHUB: "https://raw.githubusercontent.com/mushorg/tanner/master/docker/tanner/template_injection/Dockerfile"
 
 SESSIONS: 
-  delete_timeout: 1000
+  delete_timeout: 300
