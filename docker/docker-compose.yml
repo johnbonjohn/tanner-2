@@ -15,7 +15,7 @@ services:
     networks:
      - tanner_local
     image: "mushorg/redis:latest"
-    read_only: true
+    read_only: False
 
 # PHP Sandbox service
   tanner_phpox:
