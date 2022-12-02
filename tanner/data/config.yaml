@@ -79,7 +79,7 @@ HPFEEDS:
   CHANNEL: tanner.events
 
 LOCALLOG: 
-  enabled: False
+  enabled: True
   PATH: /tmp/tanner_report.json
 
 CLEANLOG: 
