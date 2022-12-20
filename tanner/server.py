@@ -125,7 +125,7 @@ class TannerServer:
 
     def start(self):
         loop = asyncio.get_event_loop()
-        self.redis_client = loop.run_until_complete(redis_client.RedisClient.get_redis_client())
+        self.redis_client = loop.run_coroutine_threadsafe(redis_client.RedisClient.get_redis_client())
 
         host = TannerConfig.get("TANNER", "host")
         port = TannerConfig.get("TANNER", "port")
